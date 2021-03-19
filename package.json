@@ -1,0 +1,22 @@
+{
+  "name": "roti",
+  "version": "1.0.0",
+  "description": "Untuk stok gudang  roti",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "sass": "^1.32.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
