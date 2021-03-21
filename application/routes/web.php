@@ -21,3 +21,7 @@
 Route::get('/', "Welcome@index")->name('homepage');
 
 Route::get("/testing", "welcomemodules@welcome/testing");
+
+Route::group("userlevel", function (){
+    Route::get("/", "userlevel@page");
+});
