@@ -25,4 +25,8 @@ class Welcome extends CI_Controller
 		$data['title'] = 'Welcome to Codeignator (blade + HMVC)';
 		$this->blade->view('welcome_message', $data);
 	}
+
+	public function testing(){
+		echo "testing";
+	}
 }
